@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { Mail, MapPin, Phone, Send } from "lucide-react";
 import { Motion, RevealOnScroll } from "./ui/motion";
-import { toast } from "@/components/ui/sonner";
+import { toast } from "sonner";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
